@@ -1,10 +1,11 @@
 import React, { useState, useEffect, Component } from "react";
 import Form from 'react-bootstrap/Form';
-import ReactPlayer from 'react-player';
-import "./../../node_modules/video-react/dist/video-react.css";
+import Button from 'react-bootstrap/Button';
 import { Player } from "video-react";
+import {TestApi} from '../api/api.js';
 
 import './mainPage.css';
+import "./../../node_modules/video-react/dist/video-react.css";
 
 
 class MainPage extends Component {
@@ -17,6 +18,8 @@ class MainPage extends Component {
             youtubeLink: "",
             videoFileURL: "",
             videoFileObject: null,
+            first: "",
+            second: "",
         }
     }
 
@@ -32,6 +35,25 @@ class MainPage extends Component {
         }
     }
 
+    anotherAPI = () => {
+        TestApi().then(
+            (result) => {
+                console.log(result);
+                this.setState({
+                    first: result.setup,
+                    second: result.punchline
+                })
+            },
+            (error) => {
+                console.log("error")
+            }
+        )
+    }
+
+    sortData = () => {
+
+    }
+
     render() {
         return (
             <div className='main-page-container'>
@@ -44,6 +66,10 @@ class MainPage extends Component {
                         }} />
                     </Form.Group>
                 </Form>
+
+                <Button onClick={() => this.anotherAPI()}>Call api</Button>
+                <div>{this.state.first}</div>
+                <div>{this.state.second}</div>
 
                 <Player
                     playsInline
