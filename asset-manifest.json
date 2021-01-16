@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/study-app/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/study-app/static/js/main.c3a1ea32.chunk.js",
-    "main.js.map": "/study-app/static/js/main.c3a1ea32.chunk.js.map",
-    "runtime-main.js": "/study-app/static/js/runtime-main.470ee7b3.js",
-    "runtime-main.js.map": "/study-app/static/js/runtime-main.470ee7b3.js.map",
-    "static/js/2.6f5dc823.chunk.js": "/study-app/static/js/2.6f5dc823.chunk.js",
-    "static/js/2.6f5dc823.chunk.js.map": "/study-app/static/js/2.6f5dc823.chunk.js.map",
-    "static/js/3.2f77a288.chunk.js": "/study-app/static/js/3.2f77a288.chunk.js",
-    "static/js/3.2f77a288.chunk.js.map": "/study-app/static/js/3.2f77a288.chunk.js.map",
+    "main.css": "/study-app/static/css/main.a9a80852.chunk.css",
+    "main.js": "/study-app/static/js/main.08221f26.chunk.js",
+    "main.js.map": "/study-app/static/js/main.08221f26.chunk.js.map",
+    "runtime-main.js": "/study-app/static/js/runtime-main.ef573ff9.js",
+    "runtime-main.js.map": "/study-app/static/js/runtime-main.ef573ff9.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/study-app/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.9f5b443c.chunk.js": "/study-app/static/js/2.9f5b443c.chunk.js",
+    "static/js/2.9f5b443c.chunk.js.map": "/study-app/static/js/2.9f5b443c.chunk.js.map",
+    "static/js/3.ae346e86.chunk.js": "/study-app/static/js/3.ae346e86.chunk.js",
+    "static/js/3.ae346e86.chunk.js.map": "/study-app/static/js/3.ae346e86.chunk.js.map",
     "index.html": "/study-app/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/study-app/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.6f5dc823.chunk.js.LICENSE.txt": "/study-app/static/js/2.6f5dc823.chunk.js.LICENSE.txt",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/study-app/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.a9a80852.chunk.css.map": "/study-app/static/css/main.a9a80852.chunk.css.map",
+    "static/js/2.9f5b443c.chunk.js.LICENSE.txt": "/study-app/static/js/2.9f5b443c.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/study-app/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.470ee7b3.js",
-    "static/js/2.6f5dc823.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c3a1ea32.chunk.js"
+    "static/js/runtime-main.ef573ff9.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.9f5b443c.chunk.js",
+    "static/css/main.a9a80852.chunk.css",
+    "static/js/main.08221f26.chunk.js"
   ]
 }
