@@ -2,7 +2,6 @@ import React, { useState, useEffect, Component } from "react";
 import Form from 'react-bootstrap/Form';
 import { Button } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
-import logo from '../../src/youtube.png';
 
 import './mainPage.css';
 
