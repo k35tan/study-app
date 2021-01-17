@@ -1,0 +1,50 @@
+.main-page-container{
+    margin: 20px;
+    height: auto;
+    width:  auto;
+    background: white;
+}
+
+.left-side {
+    width: 50%;
+    float: left;
+}
+
+.right-side {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+.timestamp-container{
+    display: inline-block;
+    width: 700px;
+    height: 457px;
+    border: 10px solid #DCDCDC;
+    overflow-y: scroll;
+}
+
+.grey-btn{
+    display: inline-block;
+    background-color: #DCDCDC!important;
+    border: 3px solid #DCDCDC!important;
+    width: 30%;
+    height: 38px;
+    color: white!important;
+    margin: 5px;
+  }
+
+.keyword-input-container{
+    display: inline-block;
+    margin: 5px;
+    width: 65%;
+}
+
+.keyword-input{
+    border: 3px solid #DCDCDC!important;
+}
+
+.text-container{
+    display: inline;
+    width: 100%;
+}
