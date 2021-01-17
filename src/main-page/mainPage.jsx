@@ -59,7 +59,6 @@ class MainPage extends Component {
         return (
             <div className='main-page-container'>
                 <div className='left-side'>
-                    {/* <h1 className='title'>STUDY APP</h1> */}
                     <Player
                         playsInline
                         poster={videoPlaceholder}
@@ -68,45 +67,56 @@ class MainPage extends Component {
                         width={700}
                         height={457}
                     />
-                    <Form>
-                        <Form.Group>
-                            <Form.File id="exampleFormControlFile1" onChange={e => {
-                                this.handleVideoLoad(e);
-                            }} />
-                        </Form.Group>
-                    </Form>
+                    <div className="margin-top">
+                        <Form.File onChange={e => {
+                            this.handleVideoLoad(e);
+                        }} />
+                    </div>
+
                 </div>
                 <div className='right-side'>
                     <div className="timestamp-container">
                         <div className="keyword-input-container">
-                            <Form.Group  >
+                            <div className="left-keyword">
                                 <Form.Control className="keyword-input" type="text" placeholder="Enter a keyword" />
+                            </div>
+                            <div className="right-keyword">
                                 <Button className="grey-btn" onClick={() => this.anotherAPI()}>Search</Button>
-                            </Form.Group>
+                            </div>
                         </div>
                         <div className="text-container">
                             <div>{this.state.first}</div>
                             <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
+                            <div>{this.state.second}</div>
+                            <div>{this.state.first}</div>
+                            <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
                             <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
                             <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
-                            <div>{this.state.first}</div>
                             <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
-                            <div>{this.state.first}</div>
                             <div>{this.state.second}</div>
-                            <div>{this.state.first}</div>
                             <div>{this.state.first}</div>
                             <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
                             <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
+                            <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
                             <div>{this.state.second}</div>
                             <div>{this.state.first}</div>
+                            <div>{this.state.second}</div>
+                            <div>{this.state.first}</div>
+                            <div>{this.state.second}</div>
+                            <div>{this.state.first}</div>
+                            <div>{this.state.second}</div>
+                            <div>{this.state.first}</div>
+                            <div>{this.state.second}</div>
+                            <div>{this.state.first}</div>
+                            <div>{this.state.second}</div>
                         </div>
                     </div>
                 </div>

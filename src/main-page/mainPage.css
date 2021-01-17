@@ -17,34 +17,43 @@
 }
 
 .timestamp-container{
-    display: inline-block;
     width: 700px;
     height: 457px;
     border: 10px solid #DCDCDC;
     overflow-y: scroll;
 }
 
-.grey-btn{
-    display: inline-block;
-    background-color: #DCDCDC!important;
-    border: 3px solid #DCDCDC!important;
-    width: 30%;
-    height: 38px;
-    color: white!important;
-    margin: 5px;
-  }
-
 .keyword-input-container{
-    display: inline-block;
     margin: 5px;
-    width: 65%;
+}
+
+.left-keyword{
+    display: inline-block;
+    width: 68%;
 }
 
 .keyword-input{
     border: 3px solid #DCDCDC!important;
 }
 
+.right-keyword{
+    display: inline-block;
+    width: 28%;
+    margin-left: 5px;
+}
+
+.grey-btn{
+    background-color: #DCDCDC!important;
+    border: 0px !important;
+    width: 200px;
+    height: 38px;
+    color: white;
+  }
+
 .text-container{
-    display: inline;
     width: 100%;
+}
+
+.margin-top{
+    margin-top: 20px;
 }
